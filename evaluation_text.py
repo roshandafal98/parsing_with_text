@@ -61,6 +61,6 @@ def parse_file(filepath):
         data = data.apply(pd.to_numeric, errors='ignore')
     return data
 if __name__ == '__main__':
-    filepath = r"C:/Users/Roshan Dafal/Desktop/Python/parse.txt"
+    filepath = r"parse.txt"
     dat = parse_file(filepath)
     print(dat)
